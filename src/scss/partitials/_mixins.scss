@@ -1,0 +1,35 @@
+@mixin clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@mixin display-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin flex($n : 1) {
+    -webkit-box-flex: $n;
+    -ms-flex: $n;
+    flex: $n;
+}
+
+@mixin flex-direction-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+@mixin flex-direction-column-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+@mixin border($color: #000) {
+    border: 1px solid $color;
+}

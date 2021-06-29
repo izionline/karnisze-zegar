@@ -1,0 +1,59 @@
+@media all and (max-width: 991px) {
+    h3 {
+        font-size: 28px;
+    }
+    nav a {
+        padding: 35px 15px;
+    }
+    .home-box h3 {
+        padding-top: 0px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    header {
+        display: none;
+    }
+    nav .container {
+
+        ul {
+            display: none;
+        }
+        
+        .row div:last-of-type{
+            display: none;
+        }
+    }
+
+    .plus-btn-pos {
+        display: block;
+    }
+    
+    .media-queries {
+        display: block;
+    }
+    
+    footer p {
+        text-align: center;
+    }
+
+
+    .footer-media-queries {
+        padding-bottom: 20px;
+    }
+}
+@media all and (max-width: 575px) {
+    
+    .home-box h3 {
+        padding-top: 15px;
+    }
+    .button {
+        margin-top: 10px;
+    }
+
+    .google-map {
+        height: 300px;
+    }
+
+
+}

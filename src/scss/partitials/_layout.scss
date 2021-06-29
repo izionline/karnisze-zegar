@@ -1,0 +1,148 @@
+header {
+    height: 35px;
+    color: #9E9E9E;
+    background-color: $header-background;
+    font-size: 17px;
+
+    .container {
+        padding-top: 5px;
+    }
+
+    a {
+        color: #26A69A;
+        text-decoration: none;
+
+        &:hover {
+            color: lighten(#26A69A, 8%);
+            text-decoration: underline;
+        }
+    }
+}
+
+nav {
+    height: 90px;
+    margin-top: 0px;
+    background-color: #FAFAFA;
+    box-shadow: 0 2px #CFD8DC;
+
+    a {
+        color: #00695C;
+        text-decoration: none;
+        padding: 34px 18px;
+        border-bottom: 3px solid transparent;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+            color: #00695C;
+            text-decoration: none;
+            border-bottom: 2px solid $nav-hover;
+            transition: all 0.2s ease-in;
+        }
+    }
+
+    .current-menu-item a {
+        border-bottom: 2px solid $nav-active;
+    }
+
+    .container {
+        font-size: 18px;
+        padding-top: 32px;
+    }
+    
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    ul, li {
+        float: left;
+    }
+
+
+    .logo-wrapper {
+        a {
+            border: none;
+        }
+
+        &:first-of-type {
+            float: left;
+            margin-top: -15px;
+        }
+        &:last-of-type {
+            margin-right: 0;
+            float: right;
+            margin-top: -20px;
+        }
+    }
+}
+
+section {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: transparent;
+
+    .article {
+
+        max-width: 960px;
+        margin: 0 auto;
+    
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.home-box {
+    .row {
+        margin-bottom: 50px;
+    }
+    h3 {
+        padding-top: 15px;
+    }
+    img {
+        box-shadow: -1px 1px 16px #d0d0d0;
+    }
+    a {
+        font-size: 1.8rem;
+        
+        &:hover {
+            color: #A7FFEB;
+        }
+        
+        span {
+            margin-left: 20px;
+        }
+    }
+}
+
+.google-map {
+    border:0;
+    width: 100%;
+    height: 400px;
+    margin-bottom: -50px;
+}
+
+footer {
+    margin-top: 45px;
+    color: #ECEFF1;
+    background-color: $footer-backgraund;
+
+    .container {
+        padding-top: 34px;
+        padding-bottom: 24px;
+    }
+
+    a {
+        color: inherit;
+
+        &:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+}

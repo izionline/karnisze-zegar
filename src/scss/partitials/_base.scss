@@ -1,0 +1,48 @@
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-family: $headerFont;
+    background-color: $body-background;
+    color: $color;
+}
+h1 {
+    font-size: 4.2rem;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 40px;
+}
+h3 {
+    font-size: 3.2rem;
+    font-weight: 200;
+}
+p {
+    font-family: $paragraphFont;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+}
+a {
+    text-decoration: none;
+    color: #2196f3;
+}
+
+b, strong {
+    font-weight: 400;
+    color: #009688;
+}
+
+.media-queries {
+    display: none;
+}
+
+.logo {
+    width: 125px;
+}
+.logo2 {
+    width: 110px;
+}
+
+// 404
+body.error404 p {
+    text-align: center;
+}
