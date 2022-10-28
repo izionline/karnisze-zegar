@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col">
                 <div class="media-queries footer-media-queries">
-                    <p><a href="http://awitek.pl" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-awitek-2.png" alt="A.Witek - Karnisze ZEGAR" class="logo2"></a></p>
+                    <p><a href="https://awitek.pl" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-awitek-2.png" alt="A.Witek - Karnisze ZEGAR" class="logo2"></a></p>
                     <p>tel. 12 66 23 626<br>
                         kom. 501 220 152<br>
                         mail: <a href="mailto:karnisze@dywanywitek.pl">karnisze@dywanywitek.pl</a>
                     </p>
                 </div>
-                <p>© <?php echo date("Y"); ?> <a href="/">karnisze-zegar.awitek.pl</a></p>
+                <p>© <?php echo date("Y"); ?> | <a href="<?php echo site_url(); ?>">A.Witek - Karnisze Zegar</a></p>
                 </div>
             </div>
             </div>

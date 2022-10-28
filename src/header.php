@@ -73,7 +73,7 @@
                     <?php wp_nav_menu(array('menu' => 'primary')); ?>
                 </div>
                 <div class="col-sm-3 col-lg-2 logo-wrapper">
-                    <a href="http://awitek.pl" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-awitek.png" alt="A.Witek" class="logo2"></a>
+                    <a href="https://awitek.pl" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-awitek.png" alt="A.Witek" class="logo2"></a>
                 </div>
             </div>
         </div>
