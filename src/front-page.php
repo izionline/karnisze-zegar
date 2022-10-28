@@ -26,17 +26,6 @@
             <a class="btn button" href="<?php echo site_url(); ?>/wp-content/uploads/2018/01/formularz_zamowienia-karnisze_zegar.pdf">Pobierz formularz <span>»</span></a>
             </div>
         </div>
-            
-    <!--
-        <div class="row">
-            <div class="col-sm-5"><img src="/wp-content/uploads/2018/01/program-do-karniszy.jpg" alt="" class="img-fluid img-thumbnail"></div>
-            <div class="col-sm-7">
-            <h3>PROGRAM DO WYCENY KARNISZY ZEGAR</h3>
-            <p>Stworzony przez firmę ZEGAR program umożliwiający wycenę naszych produktów. Program jest aktualizowany na bieżąco, a informację o wersji znajdą Państwo na ekranie głównym programu.</p>
-            <a class="btn button disable" href="#">Pobierz program <span>»</span></a>
-            </div>
-        </div>
-    -->
         
         <div class="row">
             <div class="col-sm-5"><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/01/galeria-karniszy.jpg" alt="" class="img-fluid img-thumbnail"></div>
